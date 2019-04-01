@@ -1,0 +1,10 @@
+logs
+*.log
+*.swp
+*.orig
+**/bin/**
+
+# node
+**/node_modules/**
+**/ts-node-*
+!.vscode/launch.json

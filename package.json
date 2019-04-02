@@ -1,7 +1,7 @@
 {
     "name": "co-reducer",
     "version": "1.0.3",
-    "description": "Wrap generator functions in a way which makes them ideal for writing readable reduce / fold functions. Async reduce supported",
+    "description": "Wrap generator functions in a way which makes them ideal for writing readable reduce / fold functions. Async reduce supported.",
     "main": "bin/index.js",
     "repository": {
         "type": "git",

@@ -7,6 +7,13 @@
         "test": "ts-node test",
         "start": "ts-node examples"
     },
+    "files": [
+        "index.ts",
+        "package.json",
+        "package-lock.json",
+        "tsconfig.json",
+        "README.md"
+    ],
     "author": "",
     "license": "ISC",
     "dependencies": {

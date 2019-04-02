@@ -49,7 +49,7 @@ const sumDelaysAsync = reducerAsync(async function* (delayMilliseconds: number[]
     );
     // 3003
 
-})()
+})();
 
 
 
@@ -73,4 +73,4 @@ async function* delayPlusAsyncGen(delayMilliseconds: number[]) {
     );
     // 3000
 
-})()
+})();

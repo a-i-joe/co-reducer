@@ -1,6 +1,6 @@
 # co-reducer
 
-A generator coroutine for writing readable reduce / fold / foldl functions.
+A generator coroutine for writing readable reduce / fold / foldl functions. Async reduce generators are fully supported.
 
 Generator functions using this coroutine will have the following distinct behaviours:
 
@@ -73,7 +73,7 @@ const sumDelaysAsync = reducerAsync(
     );
     // 3003
 
-})()
+})();
 ```
 
 ## Sum numbers with `reduceAsync`
@@ -101,7 +101,7 @@ async function* delayPlusAsyncGen(delayMilliseconds: number[]) {
     );
     // 3000
 
-})()
+})();
 ```
 
 # Requirements

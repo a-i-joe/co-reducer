@@ -1,6 +1,6 @@
 {
     "name": "co-reducer",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Wrap generator functions in a way which makes them ideal for writing readable reduce / fold functions.",
     "main": "bin/index.js",
     "repository": {

@@ -4,7 +4,8 @@
     "description": "Wrap generator functions in a way which makes them ideal for writing readable reduce / fold functions.",
     "main": "index.ts",
     "scripts": {
-        "test": "ts-node test"
+        "test": "ts-node test",
+        "start": "ts-node examples"
     },
     "author": "",
     "license": "ISC",

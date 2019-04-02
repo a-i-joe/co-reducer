@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "description": "Wrap generator functions in a way which makes them ideal for writing readable reduce / fold functions.",
     "main": "index.ts",
+    "repository": {
+        "url": "https://github.com/a-i-joe/co-reducer"
+    },
+    "readme": "./README.md",
     "scripts": {
         "test": "ts-node test",
         "start": "ts-node examples"

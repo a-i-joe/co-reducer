@@ -4,8 +4,13 @@
     "description": "Wrap generator functions in a way which makes them ideal for writing readable reduce / fold functions.",
     "main": "index.ts",
     "repository": {
-        "url": "https://github.com/a-i-joe/co-reducer"
+        "type": "git",
+        "url": "https://github.com/a-i-joe/co-reducer.git"
     },
+    "bugs": {
+        "url": "https://github.com/a-i-joe/co-reducer/issues"
+    },
+    "homepage": "https://github.com/a-i-joe/co-reducer",
     "readme": "./README.md",
     "scripts": {
         "test": "ts-node test",

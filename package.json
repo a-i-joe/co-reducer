@@ -1,8 +1,8 @@
 {
     "name": "co-reducer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Wrap generator functions in a way which makes them ideal for writing readable reduce / fold functions.",
-    "main": "index.ts",
+    "main": "bin/index.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/a-i-joe/co-reducer.git"
@@ -14,10 +14,13 @@
     "readme": "./README.md",
     "scripts": {
         "test": "ts-node test",
-        "start": "ts-node examples"
+        "start": "ts-node examples",
+        "prepublish": "tsc -p ."
     },
     "files": [
-        "index.ts",
+        "bin/index.js",
+        "bin/index.js.map",
+        "index.d.ts",
         "package.json",
         "package-lock.json",
         "tsconfig.json",

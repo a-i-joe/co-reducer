@@ -6,6 +6,9 @@
         "outDir": "bin/",
         "rootDir": ".",
         "baseUrl": ".",
-        "target": "esnext"
+        "target": "esnext",
+        "types": [
+            "./index"
+        ]
     }
 }

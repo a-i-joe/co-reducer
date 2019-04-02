@@ -9,6 +9,8 @@ Generator functions using this coroutine will have the following distinct behavi
 - The second call to yield is for returning the aggregated result so far.
 - Only the last yielded item is returned (one result, not an iterator).
 
+Typescript typings are included with the package.
+
 # Examples
 
 ## Concatenate some strings with `reducer`

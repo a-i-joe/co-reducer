@@ -51,6 +51,9 @@ console.log(
 ## Sum numbers with `reducerAsync` and extra parameter(s)
 
 ```typescript
+import { delay } from "bluebird";
+import { reducerAsync } from "co-reducer";
+
 const sumDelaysAsync = reducerAsync(
     async function* (delayMilliseconds: number[], extraMs: number) {
 
@@ -74,6 +77,9 @@ const sumDelaysAsync = reducerAsync(
 ## Sum numbers with `reduceAsync`
 
 ```typescript
+import { delay } from "bluebird";
+import { reduceAsync } from "co-reducer";
+
 async function addDelay(totalDelayedMilliseconds: number, delayMs: number): Promise<number> {
     await delay(delayMs);
     return totalDelayedMilliseconds + delayMs;
